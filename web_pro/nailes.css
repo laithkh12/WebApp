@@ -1,0 +1,170 @@
+html {
+    height: 100%;
+}
+
+.mainbody {
+    min-height: 100%;
+    background-image: url(img/mainfram.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main {
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+.first {
+    position: absolute;
+    background-color: #252828;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+}
+
+.detailes {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 700px;
+    bottom: 0;
+    background-color: white;
+    height: 100%;
+}
+
+.last {
+    position: absolute;
+    background-color: #252828;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 190px;
+}
+
+.logodiv {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 100px;
+    bottom: 269px;
+    background-color: transparent;
+}
+
+.logo {
+    display: block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    background-color: transparent;
+}
+
+
+
+.login_signup {
+    width: max-content;
+    height: max-content;
+    margin-top: -140px;
+    margin-bottom: 118px;
+}
+
+.login {
+    text-decoration: none;
+    color: beige;
+    font-size: larger;
+}
+
+.signup {
+    text-decoration: none;
+    font-size: larger;
+    color: beige;
+    padding-left: 15px;
+}
+
+.signup:hover,
+.login:hover {
+    color: rgb(255, 228, 200);
+}
+
+.second {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    text-align: end;
+}
+
+.a {
+    text-decoration-line: none;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    color: white;
+}
+
+.a:hover {
+    color: red;
+}
+
+.lack {
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    height: 100%;
+
+}
+
+.itemfield {
+    border: none;
+    margin-right: 20px;
+    padding: 0;
+    height: 100%;
+}
+
+.item {
+    margin-left: 98%;
+    text-decoration-line: none;
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: 10px;
+    color: black;
+}
+
+.item:hover {
+    text-decoration-line: underline;
+}
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.icons {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: max-content;
+    height: 100px;
+    text-align: center;
+}
+
+.socialicons {
+    margin-top: 9%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: poppins;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #testimonials {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .testimonials-heading {
+            letter-spacing: 1px;
+            margin: 30px 0px;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .testimonials-heading h1 {
+            font-size: 2.2rem;
+            font-weight: 500;
+            background-color: #202020;
+            color: #ffffff;
+            padding: 10px 20px;
+        }
+
+        .testimonials-heading span {
+            font-size: 1.3rem;
+            color: #252525;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .testimonials-box-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .testimonials-box {
+            width: 500px;
+            box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 15px;
+            cursor: pointer;
+        }
+
+        .profile-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 10px;
+        }
+
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+
+        .name-user {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .name-user strong {
+            color: #3d3d3d;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+        }
+
+        .name-user span {
+            color: #979797;
+            font-size: 0.8rem;
+        }
+
+        .reviews {
+            color: #f9d71c;
+        }
+
+        .box-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .client-comment p {
+            font-size: 0.9rem;
+            color: #4b4b4b;
+        }
+
+        .testimonials-box:hover {
+            transform: translateY(-10px);
+            transition: all ease 0.3s;
+        }
+
+        @media(max-width:1060px) {
+            .testimonials-box {
+                width: 45%;
+                padding: 10px;
+            }
+        }
+
+        @media(max-width:790px) {
+            .testimonials-box {
+                width: 100%;
+            }
+
+            .testimonials-heading h1 {
+                font-size: 1.4rem;
+
+            }
+        }
+
+        @media(max-width:340px) {
+            .box-top {
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+            }
+
+            .reviews {
+                margin-top: 10px;
+            }
+        }
+
+        ::selection {
+            color: #ffffff;
+            background-color: #252525;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="testimonials">
+        <div class="testimonials-heading">
+            <span>Comments</span>
+            <h1>Clients Says</h1>
+        </div>
+        <div class="testimonials-box-container">
+            <div class="testimonials-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="img/unknown.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Alisa Sasha</strong>
+                            <span>@Alsasha</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>המקום מאוד מסודר ונקי , העובדים נחמדים וקרובים ללב , שירות מדהימה לא שמתי לב לזמן ולא היה לי
+                        משעמם.אני לא יכולה לחקות לפעם השנייה</p>
+                </div>
+            </div>
+            <div class="testimonials-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="img/unknown.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>natasha</strong>
+                            <span>@antashaj2</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>Место очень аккуратное и чистое, работники приятные и близкие к сердцу, прекрасное обслуживание,
+                        на время не обращал внимания и не скучал, второй раз имитировать не могу</p>
+                </div>
+            </div>
+            <div class="testimonials-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="img/unknown.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Ryu Ryuu</strong>
+                            <span>@Rryuu</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>とても綺麗で清潔感があり、従業員の方も親切で親身になって対応していただき、サービスも素晴らしく、時間を気にせず退屈することはありませんでした。2度目は真似できません</p>
+                </div>
+            </div>
+            <div class="testimonials-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="img/unknown.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Alan Alberto</strong>
+                            <span>@Aalberto</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>Il posto è molto ordinato e pulito, i dipendenti sono gentili e vicini al cuore, servizio
+                        eccezionale, non ho prestato attenzione all'ora e non mi sono annoiato, non posso imitare per la
+                        seconda volta</p>
+                </div>
+            </div>
+            <div class="testimonials-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="img/unknown.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Mirena Mirena</strong>
+                            <span>@mMirena</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>Locus elegantissimus et mundus est, operarii delicatus et cordi proximus, mirificus usus, non
+                        operam dedi tempori et non eram fastidiosus, imitari non possum iterum.</p>
+                </div>
+            </div>
+            <div class="testimonials-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="img/unknown.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Erzhena Erzhena</strong>
+                            <span>@eErzhena</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>Маш цэвэрхэн, цэвэрхэн, ажилчид нь сэтгэлд ойр, гайхалтай үйлчилгээ, цаг хугацаагаа ч
+                        анзааралгүй, уйдаагүй, 2 дахь удаагаа дуурайж чадахгүй нь.</p>
+                </div>
+            </div>
+            <div class="testimonials-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="img/unknown.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Antony Ijaz</strong>
+                            <span>@aIjaz</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>Ο χώρος πολύ προσεγμένος και καθαρός, οι υπάλληλοι ευγενικοί και κοντά στην καρδιά, καταπληκτική
+                        εξυπηρέτηση, δεν έδωσα σημασία στην ώρα και δεν βαρέθηκα.Δεν μπορώ να μιμηθώ για δεύτερη φορά
+                    </p>
+                </div>
+            </div>
+            <div class="testimonials-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="img/unknown.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Roxana Sareh</strong>
+                            <span>@רSareh</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>مکان بسیار تمیز و تمیز کارمندان خوب و دلنشین سرویس فوق العاده حوصله وقت نداشتم برای بار دوم تقلید
+                        نمیکنم</p>
+                </div>
+            </div>
+            <div class="testimonials-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="img/unknown.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>Tanya Olivia</strong>
+                            <span>@TOlivia</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>The place is very neat and clean, the employees are nice and close to the heart, the service is
+                        amazing, I didn't notice the time and I wasn't bored. I can't imitate for the second time</p>
+                </div>
+            </div>
+            <div class="testimonials-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="profile-img">
+                            <img src="img/unknown.png" alt="">
+                        </div>
+                        <div class="name-user">
+                            <strong>נועה אלקסס</strong>
+                            <span>@no3AL</span>
+                        </div>
+                    </div>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>הסלון לא נקי ,לא מסודר . העובדים חצופים,לא יודעים איך להתנהל עם אנשים</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>

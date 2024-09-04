@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+            min-height: 100%;
+            background-image: url(img/Care_background.webp);
+            background-size: cover;
+        }
+
+        .image-container {
+            position: relative;
+        }
+
+        .image-container img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .image-container .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            text-align: center;
+        }
+
+        .image-container .text-overlay a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        img {
+            width: 600px;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="img/hands_car.jpg" alt="Image">
+        <div class="text-overlay">
+            <a href="hands_care.html">ידיים</a>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="img/leg_care.jpg" alt="Image">
+        <div class="text-overlay">
+            <a href="legs_care.html">רגליים</a>
+        </div>
+    </div>
+</body>
+
+</html>
